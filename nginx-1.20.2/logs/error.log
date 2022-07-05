@@ -1,0 +1,163 @@
+2022/05/06 22:52:32 [error] 19492#15664: *1 CreateFile() "E:\ngnix\nginx-1.20.2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/05/09 12:08:02 [notice] 26100#23836: signal process started
+2022/05/09 17:39:43 [error] 26380#29432: *1 "E:\ngnix\nginx-1.20.2/http://localhost:4000/index.html" is not found (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/05/09 17:39:43 [error] 26380#29432: *1 CreateFile() "E:\ngnix\nginx-1.20.2/http://localhost:4000/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/05/09 17:44:22 [error] 36052#18848: *1 CreateFile() "E:\ngnix\nginx-1.20.2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:4000", referrer: "http://localhost:4000/"
+2022/07/04 17:30:02 [error] 18036#37292: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET / HTTP/1.1", upstream: "http://[::1]:3000/", host: "localhost"
+2022/07/04 17:30:04 [error] 18036#37292: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2022/07/04 17:30:04 [error] 18036#37292: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/07/04 17:30:49 [error] 18036#37292: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:3000/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/07/04 17:31:08 [error] 18036#37292: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "localhost", referrer: "http://localhost/server.domain"
+2022/07/04 17:31:22 [error] 18036#37292: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "localhost", referrer: "http://localhost/client.domain"
+2022/07/04 17:31:36 [error] 18036#37292: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "localhost", referrer: "http://localhost/server.domain"
+2022/07/04 17:32:45 [error] 18036#37292: *39 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "localhost", referrer: "http://localhost/client.domain"
+2022/07/04 17:34:02 [error] 18036#37292: *53 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "localhost", referrer: "http://localhost/client.domain"
+2022/07/04 17:34:33 [error] 18036#37292: *53 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "localhost", referrer: "http://localhost/"
+2022/07/04 17:35:30 [error] 18036#37292: *63 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:3000/favicon.ico", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/04 17:35:43 [error] 18036#37292: *74 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:3000/favicon.ico", host: "server.localhost", referrer: "http://server.localhost/"
+2022/07/04 17:41:30 [error] 18036#37292: *85 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:3000/favicon.ico", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/04 17:43:44 [error] 18036#37292: *96 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:3000/favicon.ico", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/04 17:47:00 [notice] 30920#32948: signal process started
+2022/07/04 17:48:57 [notice] 36000#36080: signal process started
+2022/07/04 17:49:17 [error] 35372#11036: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET / HTTP/1.1", upstream: "http://[::1]:3000/", host: "client.localhost"
+2022/07/04 17:49:36 [error] 35372#11036: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "client.localhost"
+2022/07/04 17:49:38 [error] 35372#11036: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET / HTTP/1.1", upstream: "http://[::1]:3000/", host: "client.localhost"
+2022/07/04 17:49:38 [error] 35372#11036: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/04 17:50:20 [error] 35372#11036: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "client.localhost"
+2022/07/04 17:50:22 [error] 35372#11036: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET / HTTP/1.1", upstream: "http://[::1]:3000/", host: "client.localhost"
+2022/07/04 17:50:22 [error] 35372#11036: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/04 17:53:16 [emerg] 572#40280: no "events" section in configuration
+2022/07/04 17:53:57 [error] 35372#11036: *16 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:3000/favicon.ico", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/04 17:54:56 [warn] 36616#34800: server name "a1.com/avi" has suspicious symbols in E:\ngnix\nginx-1.20.2/conf/nginx.conf:11
+2022/07/04 17:54:56 [warn] 36616#34800: server name "a1.com/iva" has suspicious symbols in E:\ngnix\nginx-1.20.2/conf/nginx.conf:18
+2022/07/04 17:54:56 [emerg] 36616#34800: no "events" section in configuration
+2022/07/04 17:55:00 [warn] 35224#38632: server name "a1.com/avi" has suspicious symbols in E:\ngnix\nginx-1.20.2/conf/nginx.conf:11
+2022/07/04 17:55:00 [warn] 35224#38632: server name "a1.com/iva" has suspicious symbols in E:\ngnix\nginx-1.20.2/conf/nginx.conf:18
+2022/07/04 17:55:00 [emerg] 35224#38632: no "events" section in configuration
+2022/07/04 17:55:11 [error] 35372#11036: *27 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:3000/favicon.ico", host: "server.localhost", referrer: "http://server.localhost/"
+2022/07/04 17:56:21 [warn] 32676#35588: server name "client/avi" has suspicious symbols in E:\ngnix\nginx-1.20.2/conf/nginx.conf:11
+2022/07/04 17:56:21 [warn] 32676#35588: server name "server/iva" has suspicious symbols in E:\ngnix\nginx-1.20.2/conf/nginx.conf:18
+2022/07/04 17:56:21 [emerg] 32676#35588: no "events" section in configuration
+2022/07/04 17:56:26 [warn] 31724#38288: server name "client/avi" has suspicious symbols in E:\ngnix\nginx-1.20.2/conf/nginx.conf:11
+2022/07/04 17:56:26 [warn] 31724#38288: server name "server/iva" has suspicious symbols in E:\ngnix\nginx-1.20.2/conf/nginx.conf:18
+2022/07/04 17:56:26 [emerg] 31724#38288: no "events" section in configuration
+2022/07/04 17:56:46 [error] 35372#11036: *50 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "client.localhost", referrer: "http://client.localhost/avi"
+2022/07/04 17:57:01 [error] 35372#11036: *69 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "server.localhost", referrer: "http://server.localhost/vai"
+2022/07/04 17:57:17 [error] 35372#11036: *64 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: server.domain, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:3000/favicon.ico", host: "server.localhost", referrer: "http://server.localhost/iva"
+2022/07/04 23:26:12 [warn] 28848#27016: conflicting server name "server.localhost" on 0.0.0.0:80, ignored
+2022/07/04 23:26:12 [emerg] 28848#27016: no "events" section in configuration
+2022/07/04 23:28:29 [emerg] 40132#37856: no "events" section in configuration
+2022/07/04 23:29:04 [emerg] 42360#27088: no "events" section in configuration
+2022/07/04 23:29:30 [emerg] 39088#43700: no "events" section in configuration
+2022/07/04 23:29:39 [emerg] 43964#30080: no "events" section in configuration
+2022/07/04 23:31:10 [emerg] 25092#2112: no "events" section in configuration
+2022/07/04 23:32:06 [emerg] 29100#9412: no "events" section in configuration
+2022/07/04 23:32:15 [emerg] 35612#28668: no "events" section in configuration
+2022/07/04 23:32:30 [emerg] 36784#41576: no "events" section in configuration
+2022/07/04 23:32:33 [emerg] 40168#7452: no "events" section in configuration
+2022/07/04 23:33:04 [emerg] 41592#18880: no "events" section in configuration
+2022/07/04 23:33:06 [emerg] 43992#13008: no "events" section in configuration
+2022/07/04 23:34:24 [emerg] 18576#23712: no "events" section in configuration
+2022/07/04 23:35:06 [warn] 37648#29048: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2022/07/04 23:35:06 [emerg] 37648#29048: no "events" section in configuration
+2022/07/04 23:35:18 [warn] 26776#10504: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2022/07/04 23:35:18 [emerg] 26776#10504: no "events" section in configuration
+2022/07/04 23:35:28 [warn] 41000#43132: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2022/07/04 23:35:28 [emerg] 41000#43132: no "events" section in configuration
+2022/07/04 23:35:37 [warn] 5556#43908: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2022/07/04 23:35:37 [emerg] 5556#43908: no "events" section in configuration
+2022/07/04 23:35:56 [emerg] 41048#42900: no "events" section in configuration
+2022/07/04 23:36:26 [emerg] 36040#17348: no "events" section in configuration
+2022/07/04 23:36:30 [emerg] 19076#28256: no "events" section in configuration
+2022/07/04 23:36:40 [emerg] 41872#11932: no "events" section in configuration
+2022/07/04 23:36:46 [emerg] 19496#43044: no "events" section in configuration
+2022/07/04 23:38:22 [emerg] 34024#21732: unexpected end of file, expecting "}" in E:\ngnix\nginx-1.20.2/conf/nginx.conf:90
+2022/07/04 23:38:26 [emerg] 21644#38920: unexpected end of file, expecting "}" in E:\ngnix\nginx-1.20.2/conf/nginx.conf:90
+2022/07/04 23:39:54 [error] 26764#15292: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:3000/", host: "client.localhost"
+2022/07/04 23:40:20 [error] 26764#15292: *8 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/04 23:41:15 [error] 26764#15292: *8 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/04 23:44:24 [error] 26764#15292: *41 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/04 23:48:30 [error] 26764#15292: *95 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/04 23:51:11 [error] 26764#15292: *100 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:3000/favicon.ico", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/04 23:52:59 [notice] 41844#43664: signal process started
+2022/07/04 23:53:28 [error] 26764#15292: *111 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:3000/favicon.ico", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/04 23:53:41 [error] 26764#15292: *117 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/04 23:58:38 [notice] 7200#41208: signal process started
+2022/07/04 23:58:52 [notice] 8952#42612: signal process started
+2022/07/04 23:58:52 [error] 8952#42612: CreateFile() "E:\ngnix\nginx-1.20.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/07/05 00:06:01 [error] 26764#15292: *133 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:3000/favicon.ico", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/05 00:16:46 [notice] 28712#7200: signal process started
+2022/07/05 00:16:46 [emerg] 32716#34168: CreateFile() "E:\ngnix\nginx-1.20.2/log/client.log" failed (3: The system cannot find the path specified)
+2022/07/05 00:17:10 [error] 26764#15292: *144 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:3000/favicon.ico", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/05 00:17:26 [emerg] 42080#17308: CreateFile() "E:\ngnix\nginx-1.20.2/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2022/07/05 00:17:32 [emerg] 6160#17500: CreateFile() "E:\ngnix\nginx-1.20.2/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2022/07/05 00:18:11 [emerg] 41656#42676: CreateFile() "E:\ngnix\nginx-1.20.2/conf/mime.types" failed (2: The system cannot find the file specified) in E:\ngnix\nginx-1.20.2/conf/nginx.conf:20
+2022/07/05 00:19:42 [emerg] 25108#3880: CreateFile() "E:\ngnix\nginx-1.20.2/conf/mime.types" failed (2: The system cannot find the file specified) in E:\ngnix\nginx-1.20.2/conf/nginx.conf:20
+2022/07/05 00:20:12 [emerg] 43264#40968: CreateFile() "E:\ngnix\nginx-1.20.2/conf/mime.types" failed (2: The system cannot find the file specified) in E:\ngnix\nginx-1.20.2/conf/nginx.conf:20
+2022/07/05 00:20:30 [emerg] 4780#41960: CreateFile() "E:\ngnix\nginx-1.20.2/conf/mime.types" failed (2: The system cannot find the file specified) in E:\ngnix\nginx-1.20.2/conf/nginx.conf:20
+2022/07/05 00:20:34 [emerg] 44092#44100: CreateFile() "E:\ngnix\nginx-1.20.2/conf/mime.types" failed (2: The system cannot find the file specified) in E:\ngnix\nginx-1.20.2/conf/nginx.conf:20
+2022/07/05 00:21:52 [emerg] 44176#44380: CreateFile() "E:\ngnix\nginx-1.20.2/conf/mime.types" failed (2: The system cannot find the file specified) in E:\ngnix\nginx-1.20.2/conf/nginx.conf:20
+2022/07/05 00:23:54 [emerg] 33900#42948: CreateFile() "E:\ngnix\nginx-1.20.2/conf/mime.types" failed (2: The system cannot find the file specified) in E:\ngnix\nginx-1.20.2/conf/nginx.conf:20
+2022/07/05 00:26:01 [notice] 43744#13764: signal process started
+2022/07/05 00:26:01 [emerg] 32716#34168: CreateFile() "E:/log/client.log" failed (3: The system cannot find the path specified)
+2022/07/05 00:27:27 [notice] 44920#19744: signal process started
+2022/07/05 00:27:40 [emerg] 32096#30340: CreateFile() "E:/log/client.log" failed (3: The system cannot find the path specified)
+2022/07/05 00:28:24 [emerg] 22876#19808: CreateFile() "E:/logs/client.log" failed (3: The system cannot find the path specified)
+2022/07/05 00:28:30 [emerg] 16740#14588: CreateFile() "E:/logs/client.log" failed (3: The system cannot find the path specified)
+2022/07/05 00:28:34 [emerg] 44964#44000: CreateFile() "E:/logs/client.log" failed (3: The system cannot find the path specified)
+2022/07/05 00:29:39 [notice] 37856#40004: signal process started
+2022/07/05 00:29:39 [error] 37856#40004: invalid PID number "" in "E:\ngnix\nginx-1.20.2/logs/nginx.pid"
+2022/07/05 00:29:52 [notice] 42232#34056: signal process started
+2022/07/05 00:29:52 [error] 42232#34056: invalid PID number "" in "E:\ngnix\nginx-1.20.2/logs/nginx.pid"
+2022/07/05 00:30:32 [error] 26764#15292: *155 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:3000/favicon.ico", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/05 00:31:34 [notice] 35684#42604: signal process started
+2022/07/05 00:34:36 [notice] 30340#36772: signal process started
+2022/07/05 00:38:24 [error] 26764#15292: *221 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/05 00:39:41 [error] 26764#15292: *231 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "client.localhost", referrer: "http://client.localhost/sdaf"
+2022/07/05 00:40:06 [error] 26764#15292: *231 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /manifest.json HTTP/1.1", upstream: "http://[::1]:3000/manifest.json", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/05 10:13:02 [warn] 2700#10068: server name "client.localhost/avi" has suspicious symbols in E:\avinash\ngnix\nginx-1.20.2/conf/nginx.conf:51
+2022/07/05 10:13:02 [warn] 2948#18100: server name "client.localhost/avi" has suspicious symbols in E:\avinash\ngnix\nginx-1.20.2/conf/nginx.conf:51
+2022/07/05 10:14:02 [warn] 7132#31236: server name "client.localhost/avi" has suspicious symbols in E:\avinash\ngnix\nginx-1.20.2/conf/nginx.conf:51
+2022/07/05 10:14:02 [warn] 34048#30152: server name "client.localhost/avi" has suspicious symbols in E:\avinash\ngnix\nginx-1.20.2/conf/nginx.conf:51
+2022/07/05 10:16:05 [warn] 38224#45832: server name "client.localhost/avi" has suspicious symbols in E:\avinash\ngnix\nginx-1.20.2/conf/nginx.conf:51
+2022/07/05 10:16:09 [warn] 41844#27052: server name "client.localhost/avi" has suspicious symbols in E:\avinash\ngnix\nginx-1.20.2/conf/nginx.conf:51
+2022/07/05 10:16:15 [warn] 42048#44820: server name "client.localhost/avi" has suspicious symbols in E:\avinash\ngnix\nginx-1.20.2/conf/nginx.conf:51
+2022/07/05 10:16:17 [warn] 45096#47360: server name "client.localhost/avi" has suspicious symbols in E:\avinash\ngnix\nginx-1.20.2/conf/nginx.conf:51
+2022/07/05 10:16:18 [warn] 35644#41684: server name "client.localhost/avi" has suspicious symbols in E:\avinash\ngnix\nginx-1.20.2/conf/nginx.conf:51
+2022/07/05 10:16:25 [warn] 42272#38988: server name "client.localhost/avi" has suspicious symbols in E:\avinash\ngnix\nginx-1.20.2/conf/nginx.conf:51
+2022/07/05 10:17:39 [warn] 26812#20856: server name "client.localhost/avi" has suspicious symbols in E:\avinash\ngnix\nginx-1.20.2/conf/nginx.conf:51
+2022/07/05 10:18:20 [warn] 20384#47580: server name "client.localhost/avi" has suspicious symbols in E:\avinash\ngnix\nginx-1.20.2/conf/nginx.conf:51
+2022/07/05 10:18:20 [warn] 44420#28784: server name "client.localhost/avi" has suspicious symbols in E:\avinash\ngnix\nginx-1.20.2/conf/nginx.conf:51
+2022/07/05 10:21:50 [notice] 36884#22288: signal process started
+2022/07/05 10:23:10 [notice] 35624#34172: signal process started
+2022/07/05 10:36:58 [notice] 43460#18688: signal process started
+2022/07/05 10:36:58 [error] 43460#18688: CreateFile() "E:\avinash\ngnix\nginx-1.20.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/07/05 10:37:03 [notice] 17540#37900: signal process started
+2022/07/05 10:37:03 [error] 17540#37900: CreateFile() "E:\avinash\ngnix\nginx-1.20.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/07/05 10:37:16 [notice] 35328#26752: signal process started
+2022/07/05 10:37:16 [error] 35328#26752: CreateFile() "E:\avinash\ngnix\nginx-1.20.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/07/05 10:43:19 [notice] 48476#38652: signal process started
+2022/07/05 10:43:19 [error] 48476#38652: invalid PID number "" in "E:\avinash\ngnix\nginx-1.20.2/logs/nginx.pid"
+2022/07/05 10:43:26 [notice] 49056#32648: signal process started
+2022/07/05 10:43:26 [error] 49056#32648: invalid PID number "" in "E:\avinash\ngnix\nginx-1.20.2/logs/nginx.pid"
+2022/07/05 10:43:39 [notice] 48620#48452: signal process started
+2022/07/05 10:43:39 [error] 48620#48452: invalid PID number "" in "E:\avinash\ngnix\nginx-1.20.2/logs/nginx.pid"
+2022/07/05 10:45:47 [error] 39648#31404: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:4200/", host: "client.localhost"
+2022/07/05 10:46:00 [error] 39648#31404: *89 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /assets/css/font-awesome.css HTTP/1.1", upstream: "http://[::1]:4200/assets/css/font-awesome.css", host: "localhost", referrer: "http://localhost/"
+2022/07/05 10:46:13 [error] 39648#31404: *107 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /assets/css/font-awesome.css HTTP/1.1", upstream: "http://[::1]:4200/assets/css/font-awesome.css", host: "localhost", referrer: "http://localhost/"
+2022/07/05 10:46:28 [error] 39648#31404: *264 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /sockjs-node/598/x0j5j534/jsonp?c=_jp.apsk354 HTTP/1.1", upstream: "http://[::1]:4200/sockjs-node/598/x0j5j534/jsonp?c=_jp.apsk354", host: "localhost", referrer: "http://localhost/account/login"
+2022/07/05 10:46:45 [error] 39648#31404: *7 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /assets/css/font-awesome.css HTTP/1.1", upstream: "http://[::1]:4200/assets/css/font-awesome.css", host: "client.localhost", referrer: "http://client.localhost/"
+2022/07/05 10:47:01 [error] 39648#31404: *33 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET /sockjs-node/info?t=1656998219088 HTTP/1.1", upstream: "http://[::1]:4200/sockjs-node/info?t=1656998219088", host: "client.localhost", referrer: "http://client.localhost/account/login"
+2022/07/05 10:49:15 [notice] 48764#19140: signal process started
+2022/07/05 10:49:25 [error] 5808#20592: *402 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:3000/", host: "client.localhost"
+2022/07/05 10:49:27 [error] 5808#20592: *402 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "client.localhost"
+2022/07/05 10:50:02 [notice] 44268#46260: signal process started
+2022/07/05 10:50:12 [notice] 26912#2072: signal process started
+2022/07/05 10:50:50 [notice] 47736#25512: signal process started
+2022/07/05 10:50:50 [error] 47736#25512: CreateFile() "E:\avinash\ngnix\nginx-1.20.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/07/05 10:51:09 [error] 19308#17308: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:3000/", host: "client.localhost"
+2022/07/05 10:51:11 [error] 19308#17308: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "client.localhost"
+2022/07/05 10:51:14 [error] 19308#17308: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "client.localhost"
+2022/07/05 10:52:10 [error] 19308#17308: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "client.localhost"
+2022/07/05 10:52:14 [error] 19308#17308: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:3000/", host: "client.localhost"
+2022/07/05 10:52:14 [error] 19308#17308: *9 no live upstreams while connecting to upstream, client: 127.0.0.1, server: client.localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "client.localhost"
